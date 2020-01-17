@@ -148,7 +148,7 @@ html{
   display: inline-block;
   text-align: center;
   margin: 10px;
-  margin-left: -webkit-calc(4%);
+  margin-left: 4%;
   vertical-align:top;
 }
 .nameCardText{
@@ -167,14 +167,17 @@ html{
   text-align: center;
 }
 .messageCard{
-   width: -webkit-calc(100% - 775px);
-background-color: #2A5C99; border-radius:5px; padding:20px; bottom:100px; margin:10px;
+   width: calc(100vw - 980px);
+   background-color: #2A5C99;
+   border-radius:5px;
+   padding:20px;
+   bottom:100px;
+   margin:10px;
 }
 .mainPicture{
     text-align:right;
     overflow: left;
     height: 100%;
-
 }
 .quadDiv{
   width: 40%;
@@ -223,11 +226,8 @@ background-color: #2A5C99; border-radius:5px; padding:20px; bottom:100px; margin
     width: 100%;
   }
   .wideActive{
-    visibility: hidden;
     display: none;
     background-color: blue;
-
-
   }
 }
 @media screen and (max-width:800px){
@@ -240,4 +240,25 @@ background-color: #2A5C99; border-radius:5px; padding:20px; bottom:100px; margin
     width: 80%;
     margin-left: 10%;
   }
+}
+.nameCard2{
+  vertical-align: top;
+  border-radius: 5px;
+  background-color: #2A5C99;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  width:45%;
+  margin-left:3%;
+  margin-right:0px;
+
+}
+@media screen and (max-width:800px){
+  .nameCard2{
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 1px;
+  }
+
 }
